@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
         modo_emocion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Toast.makeText(getApplicationContext(), "Pulsado modo emoción",Toast.LENGTH_SHORT).show();
-
+                Toast.makeText(getApplicationContext(), "Pulsado modo emoción",Toast.LENGTH_SHORT).show();
             }
         });
     }

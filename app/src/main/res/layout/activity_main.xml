@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/modo_emocion"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="2dp"
+        android:text="emoji"
+        android:textSize="10sp"
+        android:textColor="@color/verde1"
+        app:icon="@drawable/_01_contento"
+        app:iconGravity="top"
+        app:iconTint = "@color/verde1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/modo_foto"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:text="camera"
+        android:textSize="10sp"
+        app:icon="@drawable/_02_camara"
+        app:iconGravity="top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/modo_emocion"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/modo_texto"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:text="Text"
+        android:textSize="10sp"
+        app:icon="@drawable/_04_teclado"
+        app:iconGravity="top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/modo_foto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/modo_voz"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="98dp"
+        android:layout_height="63dp"
+        android:text="microphone"
+        android:textSize="10sp"
+        app:icon="@drawable/_05_ondas_de_sonido"
+        app:iconGravity="top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/modo_texto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cómo te sientes hoy?"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/modo_foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

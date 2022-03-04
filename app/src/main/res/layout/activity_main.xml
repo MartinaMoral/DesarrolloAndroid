@@ -14,10 +14,10 @@
         android:layout_marginStart="2dp"
         android:text="emoji"
         android:textSize="10sp"
-        android:textColor="@color/verde1"
+        android:textColor="@color/purple_200"
         app:icon="@drawable/_01_contento"
         app:iconGravity="top"
-        app:iconTint = "@color/verde1"
+        app:iconTint = "@color/purple_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -77,3 +77,5 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

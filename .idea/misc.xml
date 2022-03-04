@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/MARTI/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/MARTI/AndroidStudioProjects/MyApplication/app/src/main/res/layout/dialogo_seleccionar_emocion.xml" value="0.5" />
-        <entry key="..\:/Users/MARTI/Documents/GitHub/DesarrolloAndroid/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/MARTI/Documents/GitHub/DesarrolloAndroid/app/src/main/res/layout/dialogo_seleccionar_emocion.xml" value="0.25" />
+        <entry key="..\:/Users/MARTI/Documents/GitHub/DesarrolloAndroid/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/MARTI/Documents/GitHub/DesarrolloAndroid/app/src/main/res/layout/activity_modo_texto2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/MARTI/Documents/GitHub/DesarrolloAndroid/app/src/main/res/layout/activity_seleccionar_emocion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/MARTI/Documents/GitHub/DesarrolloAndroid/app/src/main/res/layout/dialogo_seleccionar_emocion.xml" value="0.33" />
       </map>
     </option>
   </component>
